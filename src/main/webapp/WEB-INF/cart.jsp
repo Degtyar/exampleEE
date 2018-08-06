@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="resource/style/style.css">
     <meta charset="utf-8">
-    <title>Каталог</title>
+    <title>Корзина</title>
 </head>
 <body class="magazine">
 <div class="header">

@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="resource/style/style.css">
     <meta charset="utf-8">
-    <title>Каталог</title>
+    <title>Ошибка</title>
 </head>
 <body class="magazine">
 <div class="header">
@@ -25,8 +25,8 @@
     </div>
 </div>
 <hr>
-<div class="error">
-    <p>Страниаца не найдена</p>
+<div class="cart">
+    <p>Страница не найдена</p>
 
 </div>
 <hr>
