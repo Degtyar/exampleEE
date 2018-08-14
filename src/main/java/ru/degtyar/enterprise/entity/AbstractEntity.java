@@ -1,6 +1,5 @@
 package ru.degtyar.enterprise.entity;
 
-
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import javax.validation.constraints.NotNull;

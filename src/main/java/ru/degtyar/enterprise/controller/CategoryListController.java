@@ -10,7 +10,6 @@ import java.util.List;
 
 @ViewScoped
 @ManagedBean
-
 public class CategoryListController {
 
     @Inject
