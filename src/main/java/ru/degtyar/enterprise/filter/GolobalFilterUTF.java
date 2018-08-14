@@ -4,8 +4,8 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-@WebFilter(filterName = "GolobalFilterUtf", urlPatterns = {"/*"})
-public class GolobalFilterUtf implements Filter {
+@WebFilter(filterName = "GolobalFilterUTF", urlPatterns = {"/*"})
+public class GolobalFilterUTF implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 

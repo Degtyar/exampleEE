@@ -6,6 +6,14 @@
         <element id="directory" name="classes">
           <element id="module-output" name="exampleEE" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations:16.0.2" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.2" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-servlet:3.4.2.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-config-prettyfaces:3.4.2.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-integration-faces:3.4.2.Final" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/exampleEE/META-INF/MANIFEST.MF" />
