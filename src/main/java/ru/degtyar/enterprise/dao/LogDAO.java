@@ -21,6 +21,7 @@ public class LogDAO extends AbstractDAO {
         Log log = new Log();
         log.setMessage(massage);
         em.merge(log);
+
     }
     public void testRollbackRTE() {
         em.persist(new Log("testRollbackRTE"));
