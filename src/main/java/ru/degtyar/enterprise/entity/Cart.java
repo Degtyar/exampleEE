@@ -9,7 +9,7 @@ import java.util.List;
 public class Cart extends AbstractEntity {
 
     @OneToMany
-    private List<Item> items;
+    private List<Game> games;
 
     @Column
     private Integer summ;

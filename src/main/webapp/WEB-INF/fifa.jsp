@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="resources/style/style.css">
+    <link rel="stylesheet" type="text/css" href="resources /style/style.css">
     <meta charset="utf-8">
     <title>Стандартное издание FIFA 19</title>
 </head>
@@ -73,8 +73,8 @@
 </div>
 <div class="fifa">
     <h2>Подробное описание товара</h2>
-    <p class="item"> Закажите стандартное издание FIFA 19™ сегодня и получите предметы для усиления FUT.</p>
-    <ul class="item">Вас ждет:
+    <p class="game"> Закажите стандартное издание FIFA 19™ сегодня и получите предметы для усиления FUT.</p>
+    <ul class="game">Вас ждет:
         <li>до 5 бол. зол. прем. наборов</li>
         <li>Криштиану, аренда 7 игр FUT</li>
         <li>форма FUT от музыкантов FIFA</li>

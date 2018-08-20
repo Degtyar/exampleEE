@@ -11,9 +11,9 @@
 
 </h:head>
 <f:metadata>
-    <f:viewParam name="id" value="#{itemEditController.id}" />
-    <f:viewParam name="projectId" value="#{itemEditController.categoryId}" />
-    <f:viewAction action="#{itemEditController.init}" />
+    <f:viewParam name="id" value="#{gameEditController.id}" />
+    <f:viewParam name="projectId" value="#{gameEditController.categoryId}" />
+    <f:viewAction action="#{gameEditController.init}" />
 </f:metadata>
 <h:body>
     <h:form>
@@ -24,20 +24,20 @@
                 </p:outputPanel>
                 <p:messages id="msg" />
                 <p:outputPanel>
-                    <p:inputText value="#{itemEditController.item.name}" id="name"
+                    <p:inputText value="#{gameEditController.game.name}" id="name"
                                  required="true" requiredMessage="ENTER NAME" >
                         <p:ajax update="msg" event="keyup" />
                     </p:inputText>
-                    <p:inputText value="#{itemEditController.name}" />
+                    <p:inputText value="#{gameEditController.name}" />
                 </p:outputPanel>
                 <p:spacer height="5" />
             </p:fieldset>
             <p:spacer height="20" />
             <p:outputPanel>
-                <p:commandButton update="msg" value="SAVE" action="#{itemEditController.save}" />
+                <p:commandButton update="msg" value="SAVE" action="#{gameEditController.save}" />
                 <p:spacer width="20" />
-                <p:button value="ITEMS" outcome="item-list">
-                    <f:param name="categoryId" value="#{itemEditController.categoryId}" />
+                <p:button value="ITEMS" outcome="game-list">
+                    <f:param name="categoryId" value="#{gameEditController.categoryId}" />
                 </p:button>
             </p:outputPanel>
         </h:form>
