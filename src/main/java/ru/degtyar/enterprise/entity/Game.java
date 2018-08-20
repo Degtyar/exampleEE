@@ -1,11 +1,13 @@
 package ru.degtyar.enterprise.entity;
 
+import org.jetbrains.annotations.Nullable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class Item extends AbstractEntity{
+public class Game extends AbstractEntity{
 
     @Column
     private String name;
@@ -32,11 +34,12 @@ public class Item extends AbstractEntity{
         this.coast = coast;
     }
 
+    @Nullable
     public Category getCategory() {
         return category;
     }
 
-    public void setCategory(Category category) {
+    public void setCategory(@Nullable Category category) {
         this.category = category;
     }
 }

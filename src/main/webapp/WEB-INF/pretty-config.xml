@@ -12,9 +12,12 @@
         <pattern value="/category-edit" />
         <view-id value="/category-edit.xhtml"/>
     </url-mapping>
-
     <url-mapping>
-        <pattern value="/item-edit" />
-        <view-id value="/item-edit.xhtml"/>
+        <pattern value="/game-list" />
+        <view-id value="/game-list.xhtml"/>
+    </url-mapping>
+    <url-mapping>
+        <pattern value="/game-edit" />
+        <view-id value="/game-edit.xhtml"/>
     </url-mapping>
 </pretty-config>
