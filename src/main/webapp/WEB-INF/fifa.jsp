@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="resource/style/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/style/style.css">
     <meta charset="utf-8">
     <title>Стандартное издание FIFA 19</title>
 </head>

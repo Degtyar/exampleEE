@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="resource/style/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/style/style.css">
     <meta charset="UTF-8">
     <title>Контакты</title>
 </head>
