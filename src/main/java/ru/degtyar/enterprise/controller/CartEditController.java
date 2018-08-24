@@ -1,4 +1,4 @@
 package ru.degtyar.enterprise.controller;
 
-public class ItemListController {
+public class CartEditController {
 }

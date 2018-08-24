@@ -3,13 +3,20 @@ package ru.degtyar.enterprise.dao;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import ru.degtyar.enterprise.entity.Category;
+import ru.degtyar.enterprise.interceptor.LogInterceptor;
 
 import javax.ejb.Stateless;
+import javax.interceptor.Interceptors;
 
 import java.util.List;
 
 @Stateless
+@Interceptors(LogInterceptor.class)
 public class CategoryDAO extends AbstractDAO{
+
+    public Category findOne(String id) {
+        return em.find(Category.class, id);
+    }
 
     public Category merge(Category category){
         return em.merge(category);
